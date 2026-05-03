@@ -1,0 +1,76 @@
+/* إعدادات الصفحة العامة */
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* تصميم البطاقة الرئيسي (للكمبيوتر) */
+.card {
+    background-color: #FFFFFF;
+    width: 850px; /* حجم ثابت ومناسب للكمبيوتر */
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* حاوية الباركود الزرقاء */
+.qr-container {
+    background-color: #2C7DFA;
+    border-radius: 12px;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+
+.qr-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+/* تنسيق النصوص */
+.text-content {
+    padding: 0 10px 15px 10px;
+}
+
+.text-content h1 {
+    color: #1F314F;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.text-content p {
+    color: #7D889E;
+    font-size: 50px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* --- تعديلات خاصة بالهاتف (Mobile) --- */
+@media (max-width: 480px) {
+    .card {
+        width: 280px; /* تصغير عرض البطاقة في الهاتف */
+        padding: 12px;
+    }
+
+    .qr-container {
+        padding: 30px; /* تقليل المساحة الزرقاء حول الباركود في الهاتف */
+        margin-bottom: 15px;
+    }
+
+    .text-content h1 {
+        font-size: 19px; /* تصغير حجم العنوان في الهاتف */
+    }
+
+    .text-content p {
+        font-size: 14px; /* تصغير حجم الوصف في الهاتف */
+    }
+}
