@@ -62,7 +62,7 @@ body {
 }
 
 /* --- تعديلات خاصة بالهاتف (Mobile) --- */
-@media (max-width: 480px) {
+@media (max-width: 780px) {
     .card {
         width: 280px; /* تصغير عرض البطاقة في الهاتف */
         padding: 12px;
