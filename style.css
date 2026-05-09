@@ -68,6 +68,25 @@ body {
         padding: 12px;
     }
 
+    qr-container {
+    background-color: #2C7DFA;
+    border-radius: 12px;
+    padding: 60px;
+    margin-bottom: 50px;
+    /* margin-right: px; */
+    width: 70%;
+    height: 150px;
+    
+}
+
+.qr-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    display: block;
+    margin-right: -35px;
+    margin-top: -50px;
+}
     .qr-container {
         padding: 30px; /* تقليل المساحة الزرقاء حول الباركود في الهاتف */
         margin-bottom: 15px;
