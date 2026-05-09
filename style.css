@@ -66,15 +66,16 @@ body {
     .card {
         width: 70%; /* تصغير عرض البطاقة في الهاتف */
         padding: 12px;
+        height: auto;
     }
 
-    qr-container {
+    .qr-container {
     background-color: #2C7DFA;
     border-radius: 12px;
     padding: 60px;
     margin-bottom: 50px;
     /* margin-right: px; */
-    width: 70%;
+    width: 80%;
     height: 250px;
     
 }
@@ -84,8 +85,8 @@ body {
     height: 250px;
     border-radius: 8px;
     display: block;
-    margin-right: -35px;
-    margin-top: -50px;
+    margin-right: -12px;
+    margin-top: auto;
 }
     .qr-container {
         padding: 30px; /* تقليل المساحة الزرقاء حول الباركود في الهاتف */
@@ -93,10 +94,10 @@ body {
     }
 
     .text-content h1 {
-        font-size: 19px; /* تصغير حجم العنوان في الهاتف */
+        font-size: 20px; /* تصغير حجم العنوان في الهاتف */
     }
 
     .text-content p {
         font-size: 14px; /* تصغير حجم الوصف في الهاتف */
     }
-}
+    }
